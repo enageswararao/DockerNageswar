@@ -7,9 +7,10 @@ Get http://%2Fvar%2Frun%2Fdocker.sock/v1.40/images/json: dial unix /var/run/dock
 
 To create the docker group and add your user:
 Create the docker group.
-sudo groupadd docker
+1.sudo groupadd docker
 Add your user to the docker group.
-sudo usermod -aG docker ${USER}
+2.sudo usermod -aG docker ${USER}
 You would need to loog out and log back in so that your group membership is re-evaluated or type the following command:
-su -s ${USER}
+3.su -s ${USER}
+
 
